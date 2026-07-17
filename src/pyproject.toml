@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "ml-foundations"
+version = "0.1.0"
+description = "A modern machine learning foundations project using Polars and scikit-learn."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+    { name = "Chris Randle" }
+]
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
