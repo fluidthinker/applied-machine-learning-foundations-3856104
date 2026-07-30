@@ -228,7 +228,7 @@ def build_pipeline() -> Pipeline:
     random_state makes the model reproducible.
     """
     decision_tree = DecisionTreeRegressor(
-        max_depth=5,
+        max_depth=10,
         random_state=RANDOM_STATE,
     )
 
